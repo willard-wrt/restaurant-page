@@ -25,7 +25,7 @@ justify-content: center;
 align-items: center;
 width: 100%;
 padding: 20px 20px 10px 20px;
-background-color: rgba(49, 17, 28, 0.8);
+background-color: rgba(45, 58, 97, 0.8);
 color: whitesmoke;  
 border-bottom: 1px solid black;
 }
@@ -34,6 +34,7 @@ header h1 {
 font-family: 'Hina Mincho', serif;  
 font-size: 80px;
 line-height: 1.1;
+color: rgb(241, 221, 224);
 }
 
 .top-logo {
