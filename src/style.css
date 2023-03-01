@@ -3,6 +3,10 @@
   font-family: "wakuwaku";
   src: url(font/mini-wakuwaku.otf);
 }
+@font-face {
+  font-family: "kalam";
+  src: url(font/Kalam-Regular.ttf);
+}
 
 * {
   padding: 0;
@@ -109,7 +113,7 @@ header h1 {
 }
 
 .menu {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
 }
@@ -141,6 +145,51 @@ header h1 {
 .menu td {
   border: white solid 1px;
   padding: 2px 5px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.contact p {
+  font-family: "kalam";
+}
+
+.contact #contact-bg {
+  width: 100%;
+  opacity: 0.8;
+  display: block;
+}
+
+.contact {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+}
+
+.contact .tel {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+
+.contact .address {
+  position: absolute;
+  top: 23%;
+  left: 15%;
+}
+
+.contact #chicago-map {
+  width: 50%;
+  height: 50%;
+  opacity: 0.55;
+  top: 33%;
+  left: 8%;
+  position: absolute;
 }
 
 footer {
