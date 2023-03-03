@@ -98,7 +98,7 @@ header h1 {
 }
 
 .home {
-  display: none;
+  display: block;
 }
 
 .home p {
@@ -148,7 +148,7 @@ header h1 {
 }
 
 .contact {
-  display: flex;
+  display: none;
   justify-content: center;
   position: relative;
   text-align: center;
@@ -206,7 +206,7 @@ footer {
 }
 
 footer p {
-  font-size: 16px;
+  font-size: 18px;
   margin-right: 8px;
   color: aliceblue;
 }
