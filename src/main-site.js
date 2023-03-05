@@ -1,3 +1,5 @@
+import loadHome from './home';
+
 function buildHeader() {
   const header = document.createElement('header');
   header.classList.add('header');
@@ -27,6 +29,10 @@ function buildNav() {
   const homeButton = document.createElement('div');
   homeButton.classList.add('button-nav');
   homeButton.textContent = 'Home';
+  homeButton.addEventListener('click', (e) => {
+    if (e.target.classList.contains('active')) return;
+    loadHome();
+  });
 
   const menuButton = document.createElement('div');
   menuButton.classList.add('button-nav');
@@ -74,6 +80,8 @@ function buildFooter() {
 export default function buildWebsite() {
   const content = document.getElementById('content');
   content.appendChild(buildHeader());
-  // content.appendChild(buildMain());
+  content.appendChild(buildMain());
   content.appendChild(buildFooter());
+
+  loadHome();
 }
