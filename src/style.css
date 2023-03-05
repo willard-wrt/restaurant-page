@@ -148,15 +148,12 @@ header h1 {
 }
 
 .contact {
-  display: none;
+  display: flex;
   justify-content: center;
   position: relative;
   text-align: center;
 }
 
-.contact p {
-  font-family: "kalam";
-}
 
 .contact #contact-bg {
   width: 100%;
@@ -165,9 +162,9 @@ header h1 {
 }
 
 .contact {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
-  color: white;
+  color: rgb(240, 113, 134);
   padding: 10px;
 }
 
