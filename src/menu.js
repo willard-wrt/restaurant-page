@@ -1,10 +1,12 @@
+import menuGelato from './imgs/menu-gelato.jpg';
+
 function buildMenu() {
   const menu = document.createElement('div');
   menu.classList.add('menu');
   const menuTitle = document.createElement('p');
   menuTitle.textContent = 'Gelato Menu';
   const menuImg = document.createElement('img');
-  menuImg.src = '/src/imgs/menu-gelato.jpg';
+  menuImg.src = menuGelato;
   menuImg.alt = 'menu-gelato';
   const menuTable = document.createElement('table');
   menuTable.innerHTML =

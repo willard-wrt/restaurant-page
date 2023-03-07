@@ -1,9 +1,11 @@
+import homeDessert from './imgs/home-dessert.jpg';
+
 function buildHome() {
   const home = document.createElement('div');
   home.classList.add('home');
 
   const dessertImg = document.createElement('img');
-  dessertImg.src = '/src/imgs/home-dessert.jpg';
+  dessertImg.src = homeDessert;
   dessertImg.alt = 'home-dessert';
 
   home.appendChild(
