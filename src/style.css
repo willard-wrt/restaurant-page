@@ -19,6 +19,7 @@
   flex-direction: column;
   align-items: center;
   height: 100vh;
+  height: 100svh;
   text-align: center;
   background-image: url(imgs/gelato.jpg);
   background-repeat: no-repeat;
@@ -119,13 +120,13 @@ header h1 {
 }
 
 .menu img {
-  width: 80%;
+  width: 78%;
   opacity: 0.8;
   border-radius: 15%;
 }
 
 .menu > p {
-  font-size: 28px;
+  font-size: 27px;
   color: rgb(240, 113, 134);
   font-weight: bold;
   padding: 10px;
